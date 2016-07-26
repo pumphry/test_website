@@ -1,0 +1,14 @@
+p {
+	color: silver;
+	text-align: left;
+}
+
+.p-class-test {
+	color: red;
+	text-align: center;
+}
+
+#p-id-test {
+	color: blue;
+	text-align: center;
+}

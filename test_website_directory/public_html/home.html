@@ -4,21 +4,94 @@
 	<meta charset="utf-8">
 	<title>test website index</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
 	<!-- Bootstrap online CDN css reference -->
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<!-- Local test.css reference -->
-	<link rel="stylesheet" type="text/css" href="css/test.css">
+	<link rel="stylesheet" type="text/css" href="css/general.css">
+
+	<!-- Online jquery reference. -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	
+	<!-- Online boostratp js reference. -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<!-- Local index.js file reference. -->
+	<script src="js/index.js"></script>
 </head>
 <body>
-	<!-- Local jquery reference. -->
-	<script src="js/jquery-1.11.3.min.js"></script>
-	<!-- Local boostratp js reference. -->
-	<script src="js/bootstrap.min.js"></script>
+	<!-- Header bar container -->
 
-    <h1>HOME PAGE</h1>
+	<!-- Home title container -->
+	<div class="container-fluid">
+		<h1 class="page-header">HOME</h1>
+	</div>
 
-	<p>Just 'p' css applied test!</p>
-	<p class='p-class-test'>CSS Class Test!</p>
-	<p id='p-id-test'>CSS Id Test!</p>
+	<!-- Portfolio scroll view container -->
+
+	<!-- Resume button, Contact Me button, Blog button, and About Me description 2 row container. -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-6 center-text-and-objects">
+				<div>
+					<button onclick="" class="home-page-button">
+						View My Resume
+					</button>
+				</div>
+
+				<div>
+					<h2 class="shaded-header2">Skills</h2>
+					<ul class="left-justify-text">
+						<li>Over three years of professional experience designing and developing video game, websites, mobile applications, and simulations</li>
+						<li>Specialized in technical art, user interface (UI) design and development, and user experience design (UX)</li>
+						<li>Leadership experience on a variety of digital projects as project manager, interim development lead, and intern team lead</li>
+						<li>Scripting languages:
+							<ul>
+								<li>C#</li>
+								<li>HTML5</li>
+								<li>CSS3</li>
+								<li>JavaScript</li>
+								<li>Angular JS</li>
+								<li>Melscript</li>
+								<li>C++</li>
+							</ul>
+						</li>
+						<li>2D graphic design</li>
+						<li>3D modeling and texturing</li>
+						<li>Creative and technical writing</li>
+					</ul>
+				</div>
+				<div>
+					<h2 class="shaded-header2">Education</h2>
+					<ul class="left-justify-text">
+						<li>University of Central Florida (Orlando, FL)</li>
+						<li>B.A. degree in Digital Media - Game Design</li>
+						<li>Minor in Creative Writing</li>
+						<li>Graduated with University Honors: 05/2013
+					</ul>
+				</div>
+			</div>
+			
+			<div class="col-md-6 center-text-and-objects">
+				
+				<div onclick ="" id="blog-image-button">
+					<div>
+						<h2 class="shaded-header2">Blog</h2>
+					</div>
+					<div>
+						<h3 class="shaded-header2">Featured: Blog Post Title</h3>
+					</div>
+				</div>
+
+				<div>
+					<button onclick="" class="home-page-button">
+						Contact Me
+					</button>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer container -->
 </body>
 </html>
